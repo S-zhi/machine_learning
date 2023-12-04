@@ -16,7 +16,7 @@
 >
 > 对于这个神经元模型，在对于单个神经元来说，就像图一所示，可能会有多个参数导入，进入参数方程之后输出一个预测值 y ，使用这种方式所谓的参数方程也就是我们建立的预测模型
 >
-> <img src="D:\machine learning\assets\image-20231204162421930.png" alt="image-20231204162421930" style="zoom:60%;" />
+> <img src="D:\machine learning\1, 神经元模型和基础感知器\assets\image-20231204162421930.png" alt="image-20231204162421930" style="zoom:50%;" />
 
 在了解完，McClloch-Pitts模型之后，我们就知道了一些简单的神经元是如何建立的了，但是如何让机器自动的像人一样生成神经元，这就要涉及到我们后面要讲的 Rosenblatt 感知器了。
 
@@ -42,5 +42,5 @@
 >
 > 介绍 ： 所谓的Rosenblatt感知器，实际上就是依靠原来的预测参数方程预测出来的数据和数据集本身的正确数据经过感知器模型再修改参数方程的参数。
 >
-> <img src="D:\machine learning\assets\image-20231204165331209.png" alt="image-20231204165331209" style="zoom:50%;" />
+> <img src="D:\machine learning\1, 神经元模型和基础感知器\assets\image-20231204165319249.png" alt="image-20231204165319249" style="zoom:50%;" />
 
