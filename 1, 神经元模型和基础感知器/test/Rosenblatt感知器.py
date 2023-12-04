@@ -16,7 +16,7 @@ for m in range(1,100):
         y_pre = w * xs
 plt.xlabel("x")
 plt.ylabel("y_pre")
-plt.title("McCulloch-Pitts")
+plt.title("Rosenblatt")
 plt.scatter(xs,ys)
 plt.plot(xs,y_pre)
 plt.show()
