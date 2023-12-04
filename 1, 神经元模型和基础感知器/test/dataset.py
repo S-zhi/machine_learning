@@ -1,3 +1,4 @@
+# dataset存在一个函数 get_beans | 作用：得到两个数组
 import numpy as np
 
 def get_beans(counts):
