@@ -7,9 +7,6 @@ from mpl_toolkits.mplot3d import Axes3D
 m=100
 xs,ys = dataset.get_beans(m)
 
-
-
-
 #配置图像
 plt.title("Size-Toxicity Function", fontsize=12)
 plt.xlabel('Bean Size')
