@@ -8,7 +8,8 @@ plt.title("number plant")
 plt.xlabel("x")
 plt.ylabel("y")
 # y_pre = a * x + b
-
+plt.xlim(0,2)
+plt.ylim(0,2)
 
 a = 1
 
@@ -21,6 +22,7 @@ alpha = 0.1
 
 for j in range(100):
     for i in range(100):
+
         x = xs[i]
         y = ys[i]
         dw = 2 * x ** 2 * a + 2 * x * b - 2 * x * y
@@ -28,7 +30,11 @@ for j in range(100):
         b = b - db * alpha
         a = a - alpha * dw
         y_pre = a * xs + b
+
     plt.clf()
+    plt.xlim(0, 1)
+    plt.ylim(0, 1.5)
     plt.scatter(xs,ys)
     plt.plot(xs,y_pre)
     plt.pause(0.01)
+plt.show(5)
